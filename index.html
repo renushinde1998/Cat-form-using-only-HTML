@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat form</title>
+</head>
+<body>
+   <main>
+    <h1>CatPhotoApp</h1> 
+</main>
+<section>
+   <h2>Cat Photos</h2>
+   <p>See more <a target="_blank" href="https://unsplash.com/s/photos/cat">cat photos </a> in our gallery.</p>
+<img src="https://images.unsplash.com/photo-1529778873920-4da4926a72c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGNhdHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="cute cat">
+</section>
+<section>
+    <h2> Cat Lists</h2>
+    <h3>Things Cat Loves</h3>
+     <ul>
+        <li>Cat Food</li>
+        <li>Milk</li>
+        <li>Fish</li>
+        </ul>
+    </section>
+    <figure>
+        <img src="https://images.unsplash.com/photo-1524704654690-b56c05c78a00?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZmlzaHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="A cute cat">
+    <figcaption>Cat <em>Loves<em> Fish</figcaption>
+    </figure>
+    <section>
+        <h3>Top 3 things cats hate</h3>
+        <ol>
+            <li>other cat</li>
+            <li>Dogs</li>
+            <li>thunder</li>
+        </ol>
+        <!--<figure>
+            <img scr="https://media.istockphoto.com/id/1255198903/photo/three-different-cats-standing-side-by-side.webp?b=1&s=170667a&w=0&k=20&c=PAqHeMdVEg4VFaxfndhQS9jyzvRpRZ410XYPdtuNfNM=" alt="group photo of cat">
+        
+        <figcaption>Cats <em>Hates</em> other Cats</figcaption>-->
+    </figure>
+    </section>
+    <section> 
+        <h2>Cat form</h2>
+        <form actio="">
+            <fieldset>
+                <legend>Is  your cat indoor or outdoor</legend>
+                <label><input id="indoor" type="radio" value="indoor" name="indoor-outdoor" checked>Indoor</label>
+                <label><input id="outdoor" type="radio" value="outdoor" name="indoor-outdoor">Outdoor</label>
+            </fieldset>
+            <fieldset>
+                <legend>What is your Cat Personality</legend>
+                <input id="loving" type="checkbox" name="personality" value="loving" checked>
+                <label for="loving">Loving</label>
+                <input id="lazy" type="checkbox" name="personality" value="loving">
+                <label for="lazy">Lazy</label>
+                <input id="Energetic" type="checkbox" name="personality" value="loving">
+                <label for="Energetic">Energetic</label>
+            </fieldset>
+            <fieldset>
+                <section>
+                    <label>Favourite Cat color</label>
+                    <select> name="color">
+                      <option>white</option>
+                      <option>Brown</option>
+                      <option>black</option>
+                    </select>
+                </section>
+            </fieldset>
+        
+            <input type="text" name="cat name" placeholder="yuor cat name">
+            <button type="submit">Submit</button>
+    </section>
+    <footer>Thank you</footer>
+</body>
+</html>
